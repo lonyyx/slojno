@@ -1,0 +1,20 @@
+/*
+  Специально для светлой темы при наличии класса.
+  Здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+.page.theme_light {
+  --main-color: #353430;
+  --background-color: #FF8DCB;
+  --nav-title: #353430;
+  --header-image: url("../images/cover-image-light.png");
+  --button-active: 1px solid #353430;
+  --headerfooter-title: #FFC2E6;
+  --angle-headerfooter: 1px solid #353430;
+  --section-title: #353430;
+  --background-page: #fff1f7;
+  --article-color: #353430;
+  --article-color2: #353430;
+  --header-border: 1px solid #FFF1F7;
+}

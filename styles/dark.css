@@ -1,0 +1,20 @@
+/*
+  Специально для тёмной темы при наличии класса,
+  здесь окажутся стили, которые нужно переопределить принудительно,
+  переключая тему
+*/
+
+.page.theme_dark {
+  --main-color: #F1B2CE;
+  --background-color: #FF0070;
+  --nav-title: #FF0070;
+  --header-image: url("../images/cover-image-dark.png");
+  --button-active: 1px solid #FF0070;
+  --headerfooter-title: #DB00FF;
+  --angle-headerfooter: 1px solid #FF0070;
+  --section-title: #FF0070;
+  --background-page: #000028;
+  --article-color: #F1B2CE;
+  --article-color2: #000028;
+  --header-border: 1px solid #000028;
+}
