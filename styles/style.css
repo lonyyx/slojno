@@ -8,7 +8,11 @@
 }
 
 .link {
-    text-shadow: 2px 2px 0 #ff0070;
+    text-shadow: var(--link-shadow);
+}
+
+.link:hover {
+    border-bottom: var(--link-active);
 }
 
 .header {
@@ -72,6 +76,10 @@
     padding-right: 13px;
     padding-top: 2px;
     padding-bottom: 4px;
+}
+
+.header__theme-menu-button:hover {
+    border: var(--button-active);
 }
 
 .header__title {
