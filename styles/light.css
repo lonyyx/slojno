@@ -17,4 +17,6 @@
   --article-color: #353430;
   --article-color2: #353430;
   --header-border: 1px solid #FFF1F7;
+  --link-active: 1px solid #353430;
+  --link-shadow: 2px 2px 0 #FF8DCB;
 }
