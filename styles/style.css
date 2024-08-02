@@ -89,7 +89,7 @@
     font-size: 157px;
     font-weight: bold;
     color: var(--headerfooter-title);
-    text-shadow: 4px 4px 0px #ff0070;
+    text-shadow: var(--headerfooter-shadow);
     margin-top: 273px;
     text-transform: lowercase;
 }

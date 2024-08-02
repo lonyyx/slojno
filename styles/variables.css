@@ -1,4 +1,17 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+.page.theme_auto{
+  --main-color: #E3FB71;
+  --background-color: #F9FE72;
+  --nav-title: #F9FE72;
+  --header-image: #008110;
+  --button-active: 1px solid #F9FE72;
+  --headerfooter-title: #66E275;
+  --angle-headerfooter: 1px solid #F9FE72;
+  --section-title: #F9FE72;
+  --background-page: #008110;
+  --article-color: #E3FB71;
+  --article-color2: #008110;
+  --header-border: 1px solid #008110;
+  --link-active: 1px solid #E3FB71;
+  --link-shadow: 2px 2px 0 #F9FE72;
+  --headerfooter-shadow: 4px 4px 0px #F9FE72;
+}
